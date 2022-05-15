@@ -54,12 +54,7 @@ const Main = () => {
 
          <div className="container grid bg-primary text-right">
             <h2 className="container secondary">Grove Repeater</h2>
-            <div className="container flex">
-               <text className="container secondary centered text-justify flex-two-third">
-                  Located on the top of the water tower behind Cherokee Casino.
-                  Nets immediately following the Fairland net every Monday night
-                  except the first Monday of the month.
-               </text>
+            <div className="container flex flex-row-reverse">
                <ul className="container secondary flex-one-third">
                   <li>
                      <h3 className="secondary">KG5SW2</h3>
@@ -68,6 +63,11 @@ const Main = () => {
                   <li>Positive Offset</li>
                   <li>DCS Tone 12</li>
                </ul>
+               <text className="container secondary centered text-justify flex-two-third">
+                  Located on the top of the water tower behind Cherokee Casino.
+                  Nets immediately following the Fairland net every Monday night
+                  except the first Monday of the month.
+               </text>
             </div>
          </div>
 
@@ -92,11 +92,7 @@ const Main = () => {
 
          <div className="container grid bg-primary text-right">
             <h2 className="container secondary">Elk River Basin Repeater</h2>
-            <div className="container flex">
-               <text className="container secondary centered text-justify flex-two-third">
-                  Located near Cowskin Bridge on HWY 10. Generally used by club
-                  members who live in basin area. Anyone is welcome anytime!
-               </text>
+            <div className="container flex flex-row-reverse">
                <ul className="container secondary flex-one-third">
                   <li>
                      <h3 className="secondary">KV7Q</h3>
@@ -105,6 +101,10 @@ const Main = () => {
                   <li>Positive Offset</li>
                   <li>DCS Tone 12</li>
                </ul>
+               <text className="container secondary centered text-justify flex-two-third">
+                  Located near Cowskin Bridge on HWY 10. Generally used by club
+                  members who live in basin area. Anyone is welcome anytime!
+               </text>
             </div>
          </div>
 
