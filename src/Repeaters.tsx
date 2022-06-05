@@ -1,19 +1,16 @@
 import * as React from "react";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import { Carousel } from "react-carousel-minimal";
-import "./Main.css";
-import Images from "../../Images";
-import Header from "../header/Header";
-import Logo from "../logo/Logo";
-import Footer from "../footer/Footer";
+import Header from "./Header";
+import Logo from "./Logo";
+import Footer from "./Footer";
 
-const Main = () => {
+const Repeaters = () => {
    return (
-      <main className="main grid border-secondary zeroed">
+      <main className="main container border-secondary zeroed">
          <Header />
 
-         <div className="top-container grid">
+         <div className="repeaters-top-container grid">
             <div className="container grid centered">
                <Logo borderWidth="5px" />
             </div>
@@ -34,7 +31,7 @@ const Main = () => {
 
          <div className="container grid bg-secondary">
             <h2 className="container primary">Fairland Repeater</h2>
-            <div className="container flex">
+            <div className="container flex flex-media">
                <ul className="container primary flex-one-third">
                   <li>
                      <h3 className="primary">KG5RLV</h3>
@@ -54,7 +51,7 @@ const Main = () => {
 
          <div className="container grid bg-primary text-right">
             <h2 className="container secondary">Grove Repeater</h2>
-            <div className="container flex flex-row-reverse">
+            <div className="container flex flex-row-reverse flex-media">
                <ul className="container secondary flex-one-third">
                   <li>
                      <h3 className="secondary">KG5SW2</h3>
@@ -73,7 +70,7 @@ const Main = () => {
 
          <div className="container grid bg-secondary">
             <h2 className="container primary">American Legion Repeater</h2>
-            <div className="container flex">
+            <div className="container flex flex-media">
                <ul className="container primary flex-one-third">
                   <li>
                      <h3 className="primary">KI5SQO</h3>
@@ -92,7 +89,7 @@ const Main = () => {
 
          <div className="container grid bg-primary text-right">
             <h2 className="container secondary">Elk River Basin Repeater</h2>
-            <div className="container flex flex-row-reverse">
+            <div className="container flex flex-row-reverse flex-media">
                <ul className="container secondary flex-one-third">
                   <li>
                      <h3 className="secondary">KV7Q</h3>
@@ -110,7 +107,7 @@ const Main = () => {
 
          <div className="container grid bg-secondary">
             <h2 className="container primary">GLARA Simplex</h2>
-            <div className="container flex">
+            <div className="container flex flex-media">
                <ul className="container primary flex-one-third">
                   <li>448.250 MHz</li>
                </ul>
@@ -127,4 +124,4 @@ const Main = () => {
    );
 };
 
-export default Main;
+export default Repeaters;

@@ -1,10 +1,11 @@
-import * as React from "react";
+import React from "react";
 
 export interface LogoProps {
    borderRadius?: string;
    borderStyle?: string;
    borderWidth?: string;
    maxHeight?: string;
+   className?: string;
 }
 
 class Logo extends React.Component<LogoProps> {
@@ -17,6 +18,7 @@ class Logo extends React.Component<LogoProps> {
          <img
             src={"image298.jpg"} // w=246px, h=207px
             alt="Grand Lake Amateur Radio Association Logo"
+            className={this.props.className}
             style={{
                borderStyle: this.props.borderStyle
                   ? this.props.borderStyle
