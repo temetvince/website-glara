@@ -20,7 +20,7 @@ class Nav extends React.Component<NavProps> {
                <li>
                   <a
                      className={this.props.className + " pad-horizontal"}
-                     href="src/Nav"
+                     href="/about"
                   >
                      About Us
                   </a>
@@ -28,9 +28,9 @@ class Nav extends React.Component<NavProps> {
                <li>
                   <a
                      className={this.props.className + " pad-left"}
-                     href="src/Nav"
+                     href="/tools"
                   >
-                     Utilities
+                     Tools
                   </a>
                </li>
             </ul>
