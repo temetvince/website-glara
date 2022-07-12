@@ -23,7 +23,7 @@ class Nav extends React.Component<NavProps> {
                      className={this.props.className + " pad-horizontal"}
                      to="/about"
                   >
-                     About Us
+                     Members
                   </Link>
                </li>
                <li>
