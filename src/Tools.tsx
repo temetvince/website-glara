@@ -94,6 +94,7 @@ const Tools = () => {
                </div>
             </div>
          </div>
+
          <Footer />
       </main>
    );

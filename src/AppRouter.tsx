@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Repeaters from "./Repeaters";
 import Tools from "./Tools";
@@ -8,12 +8,12 @@ const AppRouter = () => {
    return (
       <div className="root bg-gray zeroed">
          <div className="root-main centered">
-            <BrowserRouter>
+            <HashRouter>
                <Routes>
                   <Route path="/" element={<Repeaters />} />
-                  <Route path="/tools" element={<Tools />} />
+                  <Route path="tools" element={<Tools />} />
                </Routes>
-            </BrowserRouter>
+            </HashRouter>
          </div>
       </div>
    );

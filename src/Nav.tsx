@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export interface NavProps {
    className?: string;
@@ -13,25 +14,25 @@ class Nav extends React.Component<NavProps> {
          <div className={this.props.className + " nav-main"}>
             <ul className={this.props.className}>
                <li>
-                  <a className={this.props.className + " pad-right"} href="/">
+                  <Link className={this.props.className + " pad-right"} to="/">
                      Repeaters
-                  </a>
+                  </Link>
                </li>
                <li>
-                  <a
+                  <Link
                      className={this.props.className + " pad-horizontal"}
-                     href="/about"
+                     to="/about"
                   >
                      About Us
-                  </a>
+                  </Link>
                </li>
                <li>
-                  <a
+                  <Link
                      className={this.props.className + " pad-left"}
-                     href="/tools"
+                     to="/tools"
                   >
                      Tools
-                  </a>
+                  </Link>
                </li>
             </ul>
          </div>
