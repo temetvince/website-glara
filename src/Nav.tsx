@@ -18,14 +18,14 @@ class Nav extends React.Component<NavProps> {
                      Repeaters
                   </Link>
                </li>
-               <li>
+               {/*                <li>
                   <Link
                      className={this.props.className + " pad-horizontal"}
                      to="/about"
                   >
                      Members
                   </Link>
-               </li>
+               </li> */}
                <li>
                   <Link
                      className={this.props.className + " pad-left"}
