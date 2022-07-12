@@ -35,11 +35,11 @@ const Repeaters = () => {
             <div className="container flex flex-media">
                <ul className="container primary flex-one-third">
                   <li>
-                     <h3 className="primary">KG5RLV</h3>
+                     <h3 className="primary">W0GMM</h3>
                   </li>
                   <li>147.285 MHz</li>
                   <li>Positive Offset</li>
-                  <li>PL Tone 110.9</li>
+                  <li>CTCSS Tone 110.9</li>
                </ul>
                <text className="container primary centered text-justify flex-two-third">
                   Our busiest repeater! Nets at 7 PM every Monday night except
@@ -57,11 +57,11 @@ const Repeaters = () => {
             <div className="container flex flex-row-reverse flex-media">
                <ul className="container secondary flex-one-third">
                   <li>
-                     <h3 className="secondary">KG5SW2</h3>
+                     <h3 className="secondary">K5BIV</h3>
                   </li>
-                  <li>448.250 MHz</li>
+                  <li>442.625 MHz</li>
                   <li>Positive Offset</li>
-                  <li>DCS Tone 12</li>
+                  <li>DCS Tone 25</li>
                </ul>
                <text className="container secondary centered text-justify flex-two-third">
                   Located on the top of the water tower behind Cherokee Casino.
@@ -78,11 +78,11 @@ const Repeaters = () => {
             <div className="container flex flex-media">
                <ul className="container primary flex-one-third">
                   <li>
-                     <h3 className="primary">KI5SQO</h3>
+                     <h3 className="primary">KG5RVL</h3>
                   </li>
-                  <li>220.850 MHz</li>
-                  <li>Positive Offset</li>
-                  <li>DCS Tone 12</li>
+                  <li>224.880 MHz</li>
+                  <li>Negative Offset</li>
+                  <li>CTCSS Tone 100.0</li>
                </ul>
                <text className="container primary centered text-justify flex-two-third">
                   Our 220 AllStar capable repeater! In the case of disaster,
@@ -99,11 +99,11 @@ const Repeaters = () => {
             <div className="container flex flex-row-reverse flex-media">
                <ul className="container secondary flex-one-third">
                   <li>
-                     <h3 className="secondary">KV7Q</h3>
+                     <h3 className="secondary">WN5J</h3>
                   </li>
-                  <li>448.250 MHz</li>
+                  <li>443.100 MHz</li>
                   <li>Positive Offset</li>
-                  <li>DCS Tone 12</li>
+                  <li>CTCSS Tone 100.0</li>
                </ul>
                <text className="container secondary centered text-justify flex-two-third">
                   Located near Cowskin Bridge on HWY 10. Generally used by club
@@ -118,7 +118,7 @@ const Repeaters = () => {
             </h2>
             <div className="container flex flex-media">
                <ul className="container primary flex-one-third">
-                  <li>448.250 MHz</li>
+                  <li>146.550 MHz</li>
                </ul>
                <text className="container primary centered text-justify flex-two-third">
                   Monitored by local club members.
