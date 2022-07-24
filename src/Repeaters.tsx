@@ -32,7 +32,7 @@ const Repeaters = () => {
             <h2 className="container primary repeaters-header">
                Fairland Repeater
             </h2>
-            <div className="container flex flex-media">
+            <div className="container flex">
                <ul className="container primary flex-one-third">
                   <li>
                      <h3 className="primary">W0GMM</h3>
@@ -41,12 +41,12 @@ const Repeaters = () => {
                   <li>Positive Offset</li>
                   <li>CTCSS Tone 110.9</li>
                </ul>
-               <text className="container primary centered text-justify flex-two-third">
+               <p className="container primary centered text-justify flex-two-third">
                   Our busiest repeater! Nets at 7 PM every Monday night except
                   the first Monday of the month. Even though it is Fusion (not
                   internet) enabled, we generally remain analog to avoid
                   spamming listeners with digital noise.
-               </text>
+               </p>
             </div>
          </div>
 
@@ -54,7 +54,7 @@ const Repeaters = () => {
             <h2 className="container secondary repeaters-header">
                Grove Repeater
             </h2>
-            <div className="container flex flex-row-reverse flex-media">
+            <div className="container flex flex-row-reverse">
                <ul className="container secondary flex-one-third">
                   <li>
                      <h3 className="secondary">K5BIV</h3>
@@ -63,11 +63,11 @@ const Repeaters = () => {
                   <li>Positive Offset</li>
                   <li>DCS Tone 25</li>
                </ul>
-               <text className="container secondary centered text-justify flex-two-third">
+               <p className="container secondary centered text-justify flex-two-third">
                   Located on the top of the water tower behind Cherokee Casino.
                   Nets immediately following the Fairland net every Monday night
                   except the first Monday of the month.
-               </text>
+               </p>
             </div>
          </div>
 
@@ -75,7 +75,7 @@ const Repeaters = () => {
             <h2 className="container primary repeaters-header">
                American Legion Repeater
             </h2>
-            <div className="container flex flex-media">
+            <div className="container flex">
                <ul className="container primary flex-one-third">
                   <li>
                      <h3 className="primary">KG5RVL</h3>
@@ -84,11 +84,11 @@ const Repeaters = () => {
                   <li>Negative Offset</li>
                   <li>CTCSS Tone 100.0</li>
                </ul>
-               <text className="container primary centered text-justify flex-two-third">
+               <p className="container primary centered text-justify flex-two-third">
                   Our 220 AllStar capable repeater! In the case of disaster,
                   AllStar can be disabled and the repeater becomes our Emergency
                   Management repeater.
-               </text>
+               </p>
             </div>
          </div>
 
@@ -96,7 +96,7 @@ const Repeaters = () => {
             <h2 className="container secondary repeaters-header">
                Elk River Basin Repeater
             </h2>
-            <div className="container flex flex-row-reverse flex-media">
+            <div className="container flex flex-row-reverse">
                <ul className="container secondary flex-one-third">
                   <li>
                      <h3 className="secondary">WN5J</h3>
@@ -105,10 +105,10 @@ const Repeaters = () => {
                   <li>Positive Offset</li>
                   <li>CTCSS Tone 100.0</li>
                </ul>
-               <text className="container secondary centered text-justify flex-two-third">
+               <p className="container secondary centered text-justify flex-two-third">
                   Located near Cowskin Bridge on HWY 10. Generally used by club
                   members who live in basin area. Anyone is welcome anytime!
-               </text>
+               </p>
             </div>
          </div>
 
@@ -116,13 +116,13 @@ const Repeaters = () => {
             <h2 className="container primary repeaters-header">
                GLARA Simplex
             </h2>
-            <div className="container flex flex-media">
+            <div className="container flex">
                <ul className="container primary flex-one-third">
                   <li>146.550 MHz</li>
                </ul>
-               <text className="container primary centered text-justify flex-two-third">
+               <p className="container primary centered text-justify flex-two-third">
                   Monitored by local club members.
-               </text>
+               </p>
             </div>
          </div>
 

@@ -35,8 +35,8 @@
    --spacing-double: 2rem;
 
    --box-rounding: 0px;
-   --border-size: 5px;
-   --border-style: hidden;
+   --border-size: 25px;
+   --border-style: solid;
 }
 
 /*Utilities*/
@@ -47,7 +47,6 @@
 
 .container {
    padding: var(--spacing);
-   border: var(--primary-color) var(--border-size) var(--border-style);
 }
 
 /*Div styles*/

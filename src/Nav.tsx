@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export interface NavProps {
    className?: string;
 }
+
 class Nav extends React.Component<NavProps> {
    constructor(props: NavProps) {
       super(props);
@@ -18,14 +19,14 @@ class Nav extends React.Component<NavProps> {
                      Repeaters
                   </Link>
                </li>
-               {/*                <li>
+               <li>
                   <Link
                      className={this.props.className + " pad-horizontal"}
-                     to="/about"
+                     to="/members"
                   >
                      Members
                   </Link>
-               </li> */}
+               </li>
                <li>
                   <Link
                      className={this.props.className + " pad-left"}
