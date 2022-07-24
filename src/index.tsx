@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./Main.css";
 import AppRouter from "./AppRouter";
 
-const rootElement = document.getElementById("root")
+const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
