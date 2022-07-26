@@ -126,6 +126,22 @@ const Repeaters = () => {
             </div>
          </div>
 
+         <div className="container grid bg-primary text-right">
+            <h2 className="container secondary repeaters-header">
+               Grand Lake Wires-X
+            </h2>
+            <div className="container flex flex-row-reverse">
+               <ul className="container secondary flex-one-third">
+                  <li>146.430 MHz</li>
+                  <li>CTCSS Tone 103.5</li>
+               </ul>
+               <p className="container secondary centered text-justify flex-two-third">
+                  A simplex repeater maintained by KI5SPL.
+               </p>
+            </div>
+         </div>
+
+
          <div className="footer">
             <Footer />
          </div>
