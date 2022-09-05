@@ -1,6 +1,6 @@
 @import "/src/Style.css";
 
-.test {
+.contain-width {
    max-width: 200px;
 }
 
@@ -23,6 +23,11 @@
 
    border-top: var(--primary-color) var(--border-size) solid;
    border-bottom: var(--primary-color) var(--border-size) solid;
+}
+
+.footer {
+   position: relative;
+   bottom: 0;
 }
 
 .footer-link:hover {

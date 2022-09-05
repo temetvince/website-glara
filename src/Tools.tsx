@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const Tools = () => {
    return (
-      <main className="zeroed">
+      <main className="zeroed flex-column">
          <Header />
 
          <div className="container bg-primary">
@@ -39,14 +39,13 @@ const Tools = () => {
                         rel="noopener noreferrer"
                      >
                         <img
-                           className="test"
+                           className="contain-width"
                            src="https://www.hamqsl.com/solarvhf.php"
                            alt="n0nbh Solar-Terrestrial Data"
                         />
                      </a>
                   </div>
                </div>
-
                <div className="flex container">
                   <div className="container bg-primary centered">
                      <a
@@ -64,7 +63,8 @@ const Tools = () => {
                   </div>
                </div>
             </div>
-            <div className="flex tools-each pad-bottom">
+
+            <div className="flex tools-each pad-top pad-left pad-bottom pad-right">
                <div className="container bg-primary centered">
                   <a
                      href="https://www.sws.bom.gov.au/Category/HF%20Systems/Online%20Tools/Prediction%20Tools/HF/HF.php?CatID=6&SecID=7&SecName=Online%20Tools&SubSecID=1&SubSecName=Prediction%20Tools&LinkName=HF"
