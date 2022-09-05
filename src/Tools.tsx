@@ -11,8 +11,10 @@ const Tools = () => {
             <a
                className="weatherwidget-io"
                href="https://forecast7.com/en/36d59n94d77/grove/?unit=us"
+               /* eslint-disable  react/no-unknown-property */
                data-label_1="Grand Lake"
                data-label_2="Grove, OK"
+               /* eslint-enable react/no-unknown-property */
                data-theme="original"
             >
                Grand Lake Grove, OK

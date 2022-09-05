@@ -38,7 +38,7 @@ const Repeaters = () => {
                      <h3 className="primary">W0GMM</h3>
                   </li>
                   <li>147.285 MHz</li>
-                  <li>Positive Offset</li>
+                  <li>+0.6 MHz Offset</li>
                   <li>CTCSS Tone 110.9</li>
                </ul>
                <p className="container primary centered text-justify flex-two-third">
@@ -60,7 +60,7 @@ const Repeaters = () => {
                      <h3 className="secondary">K5BIV</h3>
                   </li>
                   <li>442.625 MHz</li>
-                  <li>Positive Offset</li>
+                  <li>+5.0 MHz Offset</li>
                   <li>DCS Tone 25</li>
                </ul>
                <p className="container secondary centered text-justify flex-two-third">
@@ -81,7 +81,7 @@ const Repeaters = () => {
                      <h3 className="primary">KG5RVL</h3>
                   </li>
                   <li>224.880 MHz</li>
-                  <li>Negative Offset</li>
+                  <li>-1.6 MHz Offset</li>
                   <li>CTCSS Tone 100.0</li>
                </ul>
                <p className="container primary centered text-justify flex-two-third">
@@ -102,7 +102,7 @@ const Repeaters = () => {
                      <h3 className="secondary">WN5J</h3>
                   </li>
                   <li>443.100 MHz</li>
-                  <li>Positive Offset</li>
+                  <li>+5.0 MHz Offset</li>
                   <li>CTCSS Tone 100.0</li>
                </ul>
                <p className="container secondary centered text-justify flex-two-third">
@@ -133,14 +133,12 @@ const Repeaters = () => {
             <div className="container flex flex-row-reverse">
                <ul className="container secondary flex-one-third">
                   <li>146.430 MHz</li>
-                  <li>CTCSS Tone 103.5</li>
                </ul>
                <p className="container secondary centered text-justify flex-two-third">
                   A simplex repeater maintained by KI5SPL.
                </p>
             </div>
          </div>
-
 
          <div className="footer">
             <Footer />

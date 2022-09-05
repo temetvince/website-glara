@@ -20,8 +20,11 @@
     "sourceMap": true,
 
     // Necessary for passing null React props
-    "strictNullChecks": false
+    "strictNullChecks": false,
+
+    // Needed to compile
+    "types" : ["node"]
   },
-  "include": ["src/**/*.ts*"],
-  "exclude": ["node_modules", "src/**/*.spec.ts*"]
+  "include": ["src/**/*.*ts*"],
+  "exclude": ["node_modules", "src/**/*.spec.*ts*"]
 }
