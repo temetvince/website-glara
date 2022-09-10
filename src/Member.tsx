@@ -18,12 +18,12 @@ class Member extends React.Component<MemberProps> {
    constructor(props: MemberProps) {
       super(props);
 
-      this.color = this.props.alt ? "primary" : "secondary";
-      this.colorAlt = this.props.alt ? "secondary" : "primary";
-      this.bgColor = this.props.alt ? "bg-primary" : "bg-secondary";
-      this.bgColorAlt = this.props.alt ? "bg-secondary" : "bg-primary";
-      this.bgBarColor = this.props.alt ? "bg-dark-grey" : "bg-grey";
-      this.bgBarColorAlt = this.props.alt ? "bg-grey" : "bg-dark-grey";
+      this.color = props.alt ? "primary" : "secondary";
+      this.colorAlt = props.alt ? "secondary" : "primary";
+      this.bgColor = props.alt ? "bg-primary" : "bg-secondary";
+      this.bgColorAlt = props.alt ? "bg-secondary" : "bg-primary";
+      this.bgBarColor = props.alt ? "bg-dark-grey" : "bg-grey";
+      this.bgBarColorAlt = props.alt ? "bg-grey" : "bg-dark-grey";
    }
 
    render(): JSX.Element {
