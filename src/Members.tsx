@@ -48,9 +48,17 @@ const Members = () => {
          <div className={"flex-column centered border-secondary"}>
             {MemberList()
                .sort((a, b) => {
-                  return a.last.at(0).toUpperCase() > b.last.at(0).toUpperCase()
-                     ? 1
-                     : -1;
+                  if (a.last < b.last) {
+                     return -1;
+                  } else if (a.last > b.last) {
+                     return 1;
+                  } else if (a.first < b.first) {
+                     return -1;
+                  } else if (a.first > b.first) {
+                     return 1;
+                  } else {
+                     return 0;
+                  }
                })
                .map((member, index) => {
                   if (index % 2) {
