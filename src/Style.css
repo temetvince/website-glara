@@ -97,6 +97,18 @@
    align-self: end;
 }
 
+.vertical-align-top {
+   vertical-align: top;
+}
+
+.vertical-align-center {
+   vertical-align: middle;
+}
+
+.vertical-align-bottom {
+   vertical-align: bottom;
+}
+
 .justify-start {
    justify-self: start;
 }
