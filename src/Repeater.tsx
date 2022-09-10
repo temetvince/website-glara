@@ -28,7 +28,7 @@ class Repeater extends React.Component<RepeaterProps> {
                {this.props.name}
             </h2>
             <div className={"container flex"}>
-               <div className={"flex-same-size"}>
+               <div className={"align-center flex-same-size"}>
                   <ul
                      className={
                         "text-left container flex-one-third flex-same-size " +
