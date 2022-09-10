@@ -13,21 +13,27 @@ export interface RepeaterProps {
 class Repeater extends React.Component<RepeaterProps> {
    color: string;
    bgColor: string;
+   textAlign: string;
 
    constructor(props: RepeaterProps) {
       super(props);
 
       this.color = props.alt ? "secondary" : "primary";
       this.bgColor = props.alt ? "bg-primary" : "bg-secondary";
+      this.textAlign = props.alt ? "text-right" : "text-left";
    }
 
    render(): JSX.Element {
       return (
-         <div className={"container grid " + this.bgColor}>
+         <div className={this.textAlign + " container grid " + this.bgColor}>
             <h2 className={"container repeaters-header " + this.color}>
                {this.props.name}
             </h2>
-            <div className="container flex">
+            <div
+               className={
+                  "container flex" + (this.props.alt ? " flex-row-reverse" : "")
+               }
+            >
                <ul className={"container flex-one-third " + this.color}>
                   <li>
                      <h3 className={this.color}>{this.props.callsign}</h3>
