@@ -29,7 +29,7 @@ class Member extends React.Component<MemberProps> {
    render(): JSX.Element {
       return (
          <div className={"wide flex " + this.bgBarColor}>
-            <div className={"flex flex-row container centered"}>
+            <div className={"flex flex-row container centered flex-same-size"}>
                <div
                   className={
                      "primary container flex-one-half text-right " +
@@ -38,12 +38,14 @@ class Member extends React.Component<MemberProps> {
                >
                   {this.props.first + " " + this.props.last}
                </div>
-               <div
-                  className={
-                     this.color + " container flex-one-half " + this.bgColorAlt
-                  }
-               >
-                  {this.props.call}
+               <div className={"flex-one-half"}>
+                  <div
+                     className={
+                        this.color + " container fit-content " + this.bgColorAlt
+                     }
+                  >
+                     {this.props.call}
+                  </div>
                </div>
             </div>
          </div>

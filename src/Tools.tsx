@@ -21,7 +21,7 @@ const Tools = () => {
             </a>
          </div>
 
-         <div className="flex bg-secondary tools-middle centered">
+         <div className="flex flex-column bg-secondary tools-middle centered">
             <div className="flex bg-secondary tools-each centered">
                <div className="flex flex-column container tools-each">
                   <div className="container centered">
@@ -95,9 +95,9 @@ const Tools = () => {
                   </a>
                </div>
             </div>
-         </div>
 
-         <Footer />
+            <Footer />
+         </div>
       </main>
    );
 };

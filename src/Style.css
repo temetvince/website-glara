@@ -73,6 +73,10 @@
    min-width: 100%;
 }
 
+.fit-content {
+   width: fit-content;
+}
+
 .shadow-in {
    box-shadow: var(--inset-box-shadow);
 }
@@ -387,6 +391,10 @@
 
 .flex-column {
    flex-direction: column;
+}
+
+.flex-same-size {
+   flex: 1 1 0;
 }
 
 .flex-stretch {

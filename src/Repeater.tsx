@@ -13,38 +13,39 @@ export interface RepeaterProps {
 class Repeater extends React.Component<RepeaterProps> {
    color: string;
    bgColor: string;
-   textAlign: string;
 
    constructor(props: RepeaterProps) {
       super(props);
 
       this.color = props.alt ? "secondary" : "primary";
       this.bgColor = props.alt ? "bg-primary" : "bg-secondary";
-      this.textAlign = props.alt ? "text-right" : "text-left";
    }
 
    render(): JSX.Element {
       return (
-         <div className={this.textAlign + " container grid " + this.bgColor}>
+         <div className={"container grid " + this.bgColor}>
             <h2 className={"container repeaters-header " + this.color}>
                {this.props.name}
             </h2>
-            <div
-               className={
-                  "container flex" + (this.props.alt ? " flex-row-reverse" : "")
-               }
-            >
-               <ul className={"container flex-one-third " + this.color}>
-                  <li>
-                     <h3 className={this.color}>{this.props.callsign}</h3>
-                  </li>
-                  <li>{this.props.frequency}</li>
-                  <li>{this.props.offset}</li>
-                  <li>{this.props.tone}</li>
-               </ul>
+            <div className={"container flex"}>
+               <div className={"align-end flex-same-size"}>
+                  <ul
+                     className={
+                        "text-left container flex-one-third flex-same-size " +
+                        this.color
+                     }
+                  >
+                     <li>
+                        <h3 className={this.color}>{this.props.callsign}</h3>
+                     </li>
+                     <li>{this.props.frequency}</li>
+                     <li>{this.props.offset}</li>
+                     <li>{this.props.tone}</li>
+                  </ul>
+               </div>
                <p
                   className={
-                     "container centered text-justify flex-two-third " +
+                     "container centered text-left flex-two-third flex-same-size " +
                      this.color
                   }
                >
