@@ -43,7 +43,7 @@ const Repeaters = () => {
          <Repeater
             name="Grove Repeater"
             frequency="442.625 MHz"
-            callsign="K5BIV"
+            callsign="W5BIV"
             offset="+5 MHz Offset"
             tone="DCS Tone 25"
             description="Our Fusion/C4FM repeater. Nets are held at the conclusion of the Pelican Net;

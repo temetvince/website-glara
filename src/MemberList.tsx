@@ -1,6 +1,6 @@
 const MemberList = () => {
    return [
-      { first: "Gerald", last: "Patterson", call: "ki5aqt" },
+      { first: "Gerald", last: "Patterson", call: "ki5kqt" },
       { first: "Ray", last: "Coffman", call: "nz8o" },
       { first: "Doug", last: "Frisbie", call: "ki5ian" },
       { first: "Mike", last: "Duffell", call: "wb5pmf" },
@@ -47,6 +47,9 @@ const MemberList = () => {
       { first: "Annie", last: "Shepherd", call: "ki5ues" },
       { first: "Chris", last: "Hunt", call: "n0yh" },
       { first: "Kathy", last: "Hunt", call: "kf0kat" },
+      { first: "Terry", last: "Durborow", call: "n5otv" },
+      { first: "Michael", last: "Landa", call: "nl7ax" },
+      { first: "Bill", last: "Aulick", call: "k0wil" },
    ];
 };
 
