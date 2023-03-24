@@ -1,5 +1,6 @@
 const MemberList = () => {
    return [
+      { first: "Ryan", last: "Crawford", call: "ki5ytk" },
       { first: "Gerald", last: "Patterson", call: "ki5kqt" },
       { first: "Ray", last: "Coffman", call: "nz8o" },
       { first: "Doug", last: "Frisbie", call: "ki5ian" },
