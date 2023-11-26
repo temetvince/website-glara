@@ -1,60 +1,31 @@
 {
-  "name": "app",
-  "version": "1.0.0",
+  "name": "website-glara",
   "private": true,
-  "main": "public/electron.ts",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "npm run typescript && react-scripts start",
-    "build": "npm run typescript && react-scripts build",
-    "test": "npm run typescript && react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "npm run typescript && concurrently -k \"cross-env BROWSER=none npm start\" \"npm:electron\"",
-    "electron": "npm run typescript && wait-on tcp:3000 && electron .",
-    "typescript": "npm run lint && npm run format && tsc",
-    "lint": "eslint \"src/**/*.{cjs,js,jsx,ts,tsx}\" --quiet --fix",
-    "format": "prettier --write \"src/**/*.{cjs,js,jsx,ts,tsx,json}\" \"src/**/*.{cjs,js,jsx,ts,tsx,json,html,css}\"",
-    "update-dependencies": "ncu -u"
+    "dev": "vite",
+    "build": "npm run lint && npm run format && vue-tsc && vite build",
+    "preview": "vite preview",
+    "update": "ncu -u && npm install",
+    "lint": "eslint \"src/**/*.{cjs,js,jsx,ts,tsx,vue}\" --quiet --fix",
+    "format": "prettier --write \"src/**/*.{cjs,js,jsx,ts,tsx,vue}\""
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^29.5.0",
-    "@types/node": "^18.15.6",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@types/react-router-dom": "5.3.3",
-    "array-shuffle": "^3.0.0",
-    "concurrently": "^7.6.0",
-    "cross-env": "^7.0.3",
-    "electron": "^23.2.0",
-    "electron-is-dev": "^2.0.0",
-    "eslint": "^8.36.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-react": "^7.32.2",
-    "i": "^0.3.7",
-    "npm": "^9.6.2",
-    "npm-check-updates": "^16.8.0",
-    "prettier": "^2.8.6",
-    "react": "^18.2.0",
-    "react-carousel-minimal": "^1.4.1",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.9.0",
-    "react-scripts": "^5.0.1",
-    "typescript": "^5.0.2",
-    "wait-on": "^7.0.1",
-    "web-vitals": "^3.3.0"
+    "@rushstack/eslint-patch": "^1.6.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "npm-check-updates": "^16.14.11",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.7",
+    "vue-tsc": "^1.8.25"
   }
 }
