@@ -1,5 +1,6 @@
 const MemberList = () => {
   return [
+    { first: 'Mike', last: 'Barry', call: 'ki5oog' },
     { first: 'Logan', last: 'Crosby', call: 'k5lnc' },
     { first: 'Evan', last: 'Crosby', call: 'nb5h' },
     { first: 'Ryan', last: 'Crawford', call: 'ki5ytk' },
@@ -37,7 +38,7 @@ const MemberList = () => {
     { first: 'Joel', last: 'Bennett', call: 'kq2o' },
     { first: 'Kelly', last: 'Teel', call: 'k3klt' },
     { first: 'Glen', last: 'Bishop', call: 'wn5j' },
-    { first: 'Les', last: 'Berry', call: 'kg5rq' },
+    { first: 'Les', last: 'Berry', call: 'kg5grq' },
     { first: 'Garry', last: 'Brock', call: 'k5olo' },
     { first: 'Sharron', last: 'Edmondson', call: 'kc5sky' },
     { first: 'Stan', last: 'Thompson', call: 'ke5wpx' },
