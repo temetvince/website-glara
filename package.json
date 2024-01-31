@@ -7,25 +7,25 @@
     "dev": "vite",
     "build": "npm run lint && npm run format && vue-tsc && vite build",
     "preview": "vite preview",
-    "update": "ncu -u && npm install",
+    "update": "ncu -u",
     "lint": "eslint \"src/**/*.{cjs,js,jsx,ts,tsx,vue}\" --quiet --fix",
     "format": "prettier --write \"src/**/*.{cjs,js,jsx,ts,tsx,vue}\""
   },
   "dependencies": {
-    "vue": "^3.3.11",
+    "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.6.0",
-    "@vitejs/plugin-vue": "^4.5.2",
-    "@vue/eslint-config-prettier": "^8.0.0",
+    "@rushstack/eslint-patch": "^1.7.2",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^12.0.0",
-    "eslint": "^8.55.0",
-    "eslint-plugin-vue": "^9.19.2",
-    "npm-check-updates": "^16.14.11",
-    "prettier": "^3.1.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.21.0",
+    "npm-check-updates": "^16.14.14",
+    "prettier": "^3.2.4",
     "typescript": "^5.3.3",
-    "vite": "^5.0.7",
-    "vue-tsc": "^1.8.25"
+    "vite": "^5.0.12",
+    "vue-tsc": "^1.8.27"
   }
 }
